@@ -1,7 +1,7 @@
-package src.main.java.typingtest;
+package typingtest;
 
-import java.util.Scanner;
 import java.util.Random;
+import java.util.Scanner;
 public class TypingTest
 {
 
@@ -23,8 +23,14 @@ public class TypingTest
       GameManager.getStartSignal(keyboard);
 
       while (gm.isAlive())
-      {
+      { 
+         // start timer
+
          gm.testKey(keyboard, generator);
+
+         // end timer
+         // find how long for response
+         // if response long then 8 sec then decrease score
       }
 
       gm.printResults();

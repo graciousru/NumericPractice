@@ -1,5 +1,4 @@
-package src.main.java.typingtest;
-
+package typingtest;
 import java.util.Random;
 import java.util.Scanner;
 
